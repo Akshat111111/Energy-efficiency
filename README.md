@@ -40,7 +40,7 @@ Create and activate a Python virtual environment, then install dependencies:
 
 **macOS / Linux:**
 ```bash
-cd py-ai-backend
+cd backend
 
 # Create the virtual environment
 python3 -m venv venv
@@ -54,7 +54,7 @@ pip install mcp
 
 **Windows (PowerShell):**
 ```powershell
-cd py-ai-backend
+cd backend
 python -m venv venv
 venv\Scripts\Activate.ps1
 pip install mcp
