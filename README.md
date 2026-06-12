@@ -79,6 +79,10 @@ Claude will automatically call the local MCP tool to fetch the score, rating let
 
 ### Alternative Workflow: Containerized with GraftCode Gateway
 Instead of running a local `mcp_server.py` file, you can achieve the exact same integration using Docker and a remote MCP gateway.
+<img width="1907" height="1086" alt="energy scorecard 5" src="https://github.com/user-attachments/assets/2e58745c-1527-4fc4-86f5-6b1ca9e33366" />
+
+<img width="1897" height="1091" alt="energy scorecard 6" src="https://github.com/user-attachments/assets/c871c3ab-374c-45cb-b07f-0d19e32ca66c" />
+
 
 1. **Start the environment:** Run your `Dockerfile` alongside the GraftCode gateway, which exposes the service on `http://localhost:81/mcp`.
 2. **Update Claude Config:** In `claude_desktop_config.json`, configure the server to connect remotely via `npx` and `mcp-remote`:
